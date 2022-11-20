@@ -3,10 +3,16 @@
 
 using namespace std;
 
-
-
+long long my_abs(long long number){
+    if (number>=0){
+        return number;
+    }
+    else {
+        return number * -1;
+    }
+}
 int itc_min_num(long long number){
-
+number = my_abs(number);
     int zifra,minimum;
     minimum = 9;
 
@@ -31,6 +37,7 @@ int itc_rev_num(long long number){
 }
 
 int itc_null_count(long long number){
+    number = my_abs(number);
     int zifra, nullCount;
     nullCount = 0;
     while(number > 0){
