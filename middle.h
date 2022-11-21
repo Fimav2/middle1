@@ -1,6 +1,8 @@
 #ifndef MIDDLE_H_INCLUDED
 #define MIDDLE_H_INCLUDED
 
+long long my_abs(long long number);
+
 void itc_num_print(int number);
 
 int itc_len_num(long long number);
@@ -18,6 +20,8 @@ int itc_rev_num(long long number);
 int itc_null_count(long long number);
 
 bool itc_mirror_num(long long number);
+
+
 
 
 
